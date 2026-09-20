@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Golf Projet - local video files
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Temporary results
+temp/
+results/
