@@ -22,11 +22,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ProjetGolf.py" />
+    <Compile Include="src\detection.py" />
+    <Compile Include="src\init.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\video.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
