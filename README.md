@@ -52,4 +52,12 @@ python ProjetGolf.py
  
 ## Status
 In progress
+
 Current work: video acquisition, frame extraction
+
+## Author
+Olivia Bérubé
+
+Electrical Engineering Student
+
+Polytechnique Montréal
