@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="local_test\test_code.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ProjetGolf.py" />
     <Compile Include="src\detection.py" />
     <Compile Include="src\init.py">
@@ -34,6 +37,7 @@
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="local_test\" />
     <Folder Include="src\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
