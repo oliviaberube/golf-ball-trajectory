@@ -1,7 +1,7 @@
 
 # Golf Ball Trajectory and Speed Analysis
 
-Projet developed as part of the third-year Electrical Engineering course *ELE3000 - Projet Personnel en génie électrique* at Polytechnique Montréal
+Projet developed as part of the third-year Electrical Engineering course *ELE3000 - Projet Personnel en gÃ©nie Ã©lectrique* at Polytechnique MontrÃ©al
 
 ## Description
 
@@ -11,7 +11,7 @@ Video processing is done in Python using OpenCV
 
 ## Features 
 
-- [ ] Video import
+- [x] Video import
 - [ ] Golf ball detection
 - [ ] Trajectory estimation
 - [ ] Speed estimation
@@ -51,13 +51,13 @@ python ProjetGolf.py
 
  
 ## Status
-In progress
+[14/10/2026] : In progress
 
-Current work: video acquisition, frame extraction
+Current work: ball detection
 
 ## Author
-Olivia Bérubé
+Olivia BÃ©rubÃ©
 
 Electrical Engineering Student
 
-Polytechnique Montréal
+Polytechnique MontrÃ©al
